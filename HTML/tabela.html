@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="HTML/Steve-Zondicons-Code.512.png" type="image/x-icon">
+    <title>Tabela</title>
+</head>
+<body>
+    <table border="1" width="500"> <!--para fazer uma coluna-->
+        <tr>
+            <th>Título 01</th> <!--th é para deixar o titulo em negrito-->
+            <th>Título 02</th>
+            <th>Título 03</th>
+        </tr>
+        <tr>
+            <td>Coluna 01</td> <!-- tr é as linhas e o td é a coluna-->
+            <td>Coluna 02</td>
+            <td>Coluna 03</td>
+        </tr>
+        <tr>
+            <td>Coluna 01</td>
+            <td>Coluna 02</td>
+            <td>Coluna 03</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">Coluna 01 a 03</td> <!-- cospan é pra mesclar colunas-->
+        </tr >
+        <tr>
+            <td>Coluna 01</td>
+            <td colspan="2">Coluna 02 e 03</td>
+        </tr>
+    </table>
+    
+        <table border="1" width="800">
+            <tr>
+                <th>Título 01</th>
+                <th>Título 02</th>
+                <th>Título 03</th>
+                <th>Título 04</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Coluna 01</td> <!-- rowspan mesclar linhas-->
+                    <td>Coluna 02</td>
+                    <td>Coluna 03</td>
+                    <td>Coluna 04</td>
+            </tr>
+            <td>Coluna 02</td>
+            <td>Coluna 03</td>
+            <td rowspan="2">Coluna 04</td>
+            <tr>
+                <td>Coluna 01</td>
+                <td>Coluna 02</td>
+                <td>Coluna 03</td>
+            </tr>
+        </table>
+</body>
+</html>

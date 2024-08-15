@@ -1,0 +1,18 @@
+
+        body{
+            background-color: bisque;
+            font-family: fantasy;
+        }
+        h3{
+            color: blue;
+            font-size: 50px; 
+        }
+        .p1{       /*  criando uma classa para poder mudar de cor separaamente
+            font size aumenta o tamanho da fonte, e vc aumenta em pixels  */
+            color: aqua;
+            font-size: 20px;
+        }
+        .p2{
+            color: rgba(47, 58, 49, 0.739);
+        }
+    
