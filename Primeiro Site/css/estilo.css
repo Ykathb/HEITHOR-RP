@@ -1,3 +1,5 @@
+/* aqui se colocaria uma fonte tirada do google fonts roboto */
+
 body{
     /* isso serve para tirar as bordas */
     background-color: white;
@@ -6,6 +8,7 @@ body{
     /* padding serve para setar a local onde as coisas vao ficar no site */
     /* margin da linha pra fora
     padding da linha pra dentro */
+    
 }
 .site{
     position: relative; /* posição relativa é pra se adaptar a todos os tipos de tela*/
@@ -32,15 +35,45 @@ body{
     position: relative;
     width: 100%;
     height: 100px;
-    text-align: center;
+    text-align: left;
     color: red;
     background-color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* padding retira o espaçamento dos marcadores da lista
+    e o list style oculta o icone de marcar da lista */
+}
+.menu ul li{
+    float: left;
+    padding: 15px 30px;
+    /* o li que esta dentro do la que esta dentro do menu, por isso se faz assim */
+}
+.menu ul li a{
+        color: crimson;
+        text-decoration: none; /*tira o underline*/
+        /* color inherit ele herda a cor padrao do site */
+        
+
+}
+/* hover da o efeito de passar o mouse sobre o elemento */
+.menu ul li a:hover{
+color: brown;
+background-color: aquamarine;
+transition: 0.8s;
+/* tranform scale (1.2) aumenta zoom
+e o rotate ele roda */
 }
 .banner{
     position: relative;
     width: 100%;
     height: 400px;
     background-color: cadetblue;
+    
 }
 .conteudo{
     position: relative;
@@ -85,4 +118,10 @@ body{
     width: 100%;
     height: auto;
     background-color: aliceblue;
+}
+.titulo{
+    color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
 }
