@@ -1,6 +1,6 @@
 body{
     /* isso serve para tirar as bordas */
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
     /* padding serve para setar a local onde as coisas vao ficar no site */
@@ -12,7 +12,7 @@ body{
      width: 1000px; /* tamanho padrao de uma pagina */
     height: auto;
     margin: auto;
-    background-color: black;
+    background-color: white;
 }
 .topo{ 
      /* ela vai pegar 100% do site */
@@ -53,10 +53,16 @@ body{
     position: relative;
     width: 300px;
     height: 350px;
-    background-color: chocolate;
+    background-color: white;
     float: left; 
    /* float é flutuando então elas meio que ficam uma do lado da outra*/
    margin-right: 50px;
+   /*toda vez q usar border ou padding ele afeta tamanho e altura, mas para nao alterar nada e descontar esse valor basta colocar box sizing*/
+   border: 3px greenyellow solid;
+   box-sizing: border-box;
+   border-radius: 10px;
+   box-shadow: 10px 0px 50px black;
+   /* coloca uma curvatura na linha em volta da imagem */
 } 
 /*.sem-margem{
     margin-right: 0;
@@ -65,6 +71,15 @@ body{
 .box:last-child{
     margin-right: 0;
 } /*desse jeito nao precisa criar outra classe*/
+.box img{
+    /* pega todas as imagens da div box */
+    width: 100%;
+    height: auto;
+}
+.box h3, .box p{
+    /* é pra colocar um paragrafo e tamanho do titulo */
+    padding: 10px;
+}
 .rodape{
     position: relative;
     width: 100%;
