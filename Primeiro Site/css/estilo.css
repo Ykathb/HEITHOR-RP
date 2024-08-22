@@ -1,4 +1,5 @@
 /* aqui se colocaria uma fonte tirada do google fonts roboto */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 body{
     /* isso serve para tirar as bordas */
@@ -72,8 +73,23 @@ e o rotate ele roda */
     position: relative;
     width: 100%;
     height: 400px;
-    background-color: cadetblue;
-    
+    background: url(data:image/png;base64,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) 100% center;
+    background-size: cover;
+    /* transforma o elemento para felixvel, muda a posição e altura das imagens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner h1 .banner p{
+    margin: 0;
+    color: white;
+}
+.fundo-banner{
+    background-color: rgb(0, 0, 0, 1)
+    width: 100%;
+    text-align: center;
+
 }
 .conteudo{
     position: relative;
@@ -116,12 +132,44 @@ e o rotate ele roda */
 .rodape{
     position: relative;
     width: 100%;
-    height: auto;
-    background-color: aliceblue;
+    height: 200px;
+    background-color: rgb(6, 6, 7);
 }
 .titulo{
     color: black;
     width: auto;
     height: auto;
     text-align: center;
+}
+.rodape-coluna{
+    position: relative;
+    width: 33%;
+    height: auto;
+    float: left;
+}
+.rodape-coluna ul{
+    list-style: none;
+    padding-left: 0;
+}
+.rodape-coluna ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.ista-rodape li{
+    margin-bottom: 10px;
+}
+.icones-rodape li{
+    float: left;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.icones-rodape li a{
+    background-color: white;
+    padding:  5px 10px;
+    color: aqua !important; 
+    /* se faz isso quando precisa de preferencia para algo msm com uma ja existente */
+}
+.icones-rodape li a:hover{
+    border-radius: 50px;
+    transition: 0.10s;
 }
